@@ -35,3 +35,16 @@ quantification as Session 1, one row per nucleus with an `image_id` column.
 - `bbbc038_quantification.csv` — per-nucleus measurements
   (label, area, perimeter, eccentricity, mean_intensity, circularity, image_id).
 
+![BBBC038 segmentation](bbbc038_segmentation.png)
+
+Notebook: `phase1_bbbc038_quantification.ipynb`
+
+**Status.** Phase 1 complete. Next: Phase 2 (scRNA-seq with Scanpy).
+
+## Data sources
+
+- BBBC038: Broad Bioimage Benchmark Collection —
+  https://data.broadinstitute.org/bbbc/BBBC038/stage1_test.zip
+  (nuclei images used for the 2018 Data Science Bowl; small test subset).
+- Cellpose demo images: MouseLand/cellpose repository —
+  https://github.com/mouseland/cellpose
